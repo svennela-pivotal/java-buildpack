@@ -18,8 +18,10 @@
 
 <Server port='-1'>
 
+	<!--
+	Used only for tomcat 7 and below
 	<Listener className='org.apache.catalina.core.JasperListener'/>
-
+	-->
 	<Service name='Catalina'>
 		<Connector port='${http.port}' bindOnInit="false"/>
 
